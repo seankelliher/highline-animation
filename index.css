@@ -12,8 +12,8 @@ img {
     background: #000;
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-start; /*main axis*/
-    align-items: flex-start; /*cross axis*/
+    justify-content: flex-start; /* main axis */
+    align-items: flex-start; /* cross axis */
     position: relative;
 }
 
@@ -21,14 +21,14 @@ figure {
     width: 20%;
     margin: 0;
     padding: 0;
-    flex: initial; /*flex: 0 1 auto*/
+    flex: initial; /* flex: 0 1 auto */
 }
 
 section {
     width: 80%;
     margin: 0;
-    padding: .5em 10%;
-    flex: initial; /*flex: 0 1 auto*/
+    padding: 0.5em 10%;
+    flex: initial; /* flex: 0 1 auto */
     position: absolute;
     bottom: 0;
     left: 0;
@@ -39,7 +39,7 @@ h2 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 700;
-    color: #FFF;
+    color: #fff;
 }
 
 @media all and (min-width: 300px) {
@@ -72,59 +72,60 @@ h2 {
     }
 }
 
-/*Notes for Animation*/
-/*animation: [animation-name] [animation-duration] [animation-timing-function]
-[animation-delay] [animation-iteration-count] [animation-direction]
-[animation-fill-mode] [animation-play-state];*/
+/* Notes for Animation */
 
-/*Classes for figures*/
+/* animation: [animation-name] [animation-duration] [animation-timing-function]
+[animation-delay] [animation-iteration-count] [animation-direction]
+[animation-fill-mode] [animation-play-state]; */
+
+/* Classes for figures */
 .spot1 {
-    animation: fadeIn 500ms linear 2000ms 1 normal both;
+    animation: fade-in 500ms linear 2000ms 1 normal both;
 }
 
 .spot2 {
-    animation: fadeIn 500ms linear 2500ms 1 normal both;
+    animation: fade-in 500ms linear 2500ms 1 normal both;
 }
- 
+
 .spot3 {
-    animation: fadeIn 500ms linear 3000ms 1 normal both;
+    animation: fade-in 500ms linear 3000ms 1 normal both;
 }
 
 .spot4 {
-    animation: fadeIn 500ms linear 3500ms 1 normal both;
+    animation: fade-in 500ms linear 3500ms 1 normal both;
 }
- 
+
 .spot5 {
-    animation: fadeIn 500ms linear 4000ms 1 normal both;
+    animation: fade-in 500ms linear 4000ms 1 normal both;
 }
 
 .spot6 {
-    animation: fadeIn 500ms linear 4500ms 1 normal both;
+    animation: fade-in 500ms linear 4500ms 1 normal both;
 }
 
 .spot7 {
-    animation: fadeIn 500ms linear 5000ms 1 normal both;
+    animation: fade-in 500ms linear 5000ms 1 normal both;
 }
 
 .spot8 {
-    animation: fadeIn 500ms linear 5500ms 1 normal both;
+    animation: fade-in 500ms linear 5500ms 1 normal both;
 }
 
 .spot9 {
-    animation: fadeIn 500ms linear 6000ms 1 normal both;
+    animation: fade-in 500ms linear 6000ms 1 normal both;
 }
 
 .spot10 {
-    animation: fadeIn 500ms linear 6500ms 1 normal both;
+    animation: fade-in 500ms linear 6500ms 1 normal both;
 }
 
 .spot11 {
-    animation: fadeIn 500ms linear 7000ms 1 normal both;
+    animation: fade-in 500ms linear 7000ms 1 normal both;
 }
 
-@keyframes fadeIn {
+@keyframes fade-in {
     0% {
-        opacity: .2;
+        opacity: 0.2;
     }
 
     100% {
