@@ -1,7 +1,7 @@
 [![MIT License on GitHub](https://img.shields.io/github/license/seankelliher/highline-animation?style=flat-square)](/LICENSE.txt)
 ## Highline Animation
 
-Pieces are joined together to form a photo of NYC's Highline. 
+Pieces are joined together to form a photo of NYC's Highline. [View working component](https://seankelliher.github.io/highline-animation/).
 
 ## Project Screen Shots
 
