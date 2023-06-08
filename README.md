@@ -16,7 +16,7 @@ Pieces are joined together to form a photo of NYC's Highline. [View working comp
 
 ## Installation and Setup Instructions
 
-This is a static component. All you need is a web browser.
+This is a static component. Simply open the `index.html` file in your browser.
 
 ## Reflection
 
